@@ -1,0 +1,1 @@
+# Detection-and-Classification-of-External-Bovine-Diseases-Using-Deep-Learning
