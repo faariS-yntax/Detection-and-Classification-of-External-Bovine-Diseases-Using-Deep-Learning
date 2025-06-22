@@ -3,11 +3,9 @@
 This repository contains the training notebook and dataset used for a Final Year Project (FYP) focused on developing a deep learning model to detect and classify visible bovine diseases. The model is based on the YOLOv11 architecture, chosen for its real-time performance, high precision, and suitability for agricultural applications.
 
 ## 📁 Contents
-Jupyter Notebook:
 - `bovine_disease_training.ipynb`: Jupyter notebook used for training and evaluating the YOLOv11 model.
-
-This file:
-- `README.md`
+- `User_Manual.pdf`: User manual on how to recreate this project.
+- `README.md`: This file
 
 ## 📊 Project Overview
 
