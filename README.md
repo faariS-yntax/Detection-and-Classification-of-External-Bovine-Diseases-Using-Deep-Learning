@@ -3,19 +3,6 @@
 This repository contains the training notebook and dataset used for a Final Year Project (FYP) focused on developing a deep learning model to detect and classify visible bovine diseases. The model is based on the YOLOv11 architecture, chosen for its real-time performance, high precision, and suitability for agricultural applications.
 
 ## 📁 Contents
-Datasets:
-Compressed version of the dataset curated for training. Includes images and YOLO-formatted labels for diseases like Lumpy Skin Disease (LSD), Foot and Mouth Disease (FMD), Ringworm, and Infectious Bovine Keratoconjunctivitis (IBK).
-- `Bovine Disease Detection-Combined.v2i.yolov11.zip`
-- `Cattle Body Part.v2i.yolov11` 
-- `Bovine Body Disease Detection.v2i.yolov11.zip`
-- `Bovine Head Disease Detection.v1i.yolov11.zip`
-
-These dataset can also be accessed through Roboflow Universe:
-- https://universe.roboflow.com/fyp-coz6v/bovine-disease-detection-combined
-- https://universe.roboflow.com/fyp-coz6v/bovine-body-part
-- https://universe.roboflow.com/fyp-coz6v/bovine-body-disease-detection
-- https://universe.roboflow.com/fyp-coz6v/bovine-head-disease-detection
-
 Jupyter Notebook:
 - `bovine_disease_training.ipynb`: Jupyter notebook used for training and evaluating the YOLOv11 model.
 
@@ -37,6 +24,12 @@ The dataset includes images and bounding box annotations formatted for YOLO. It 
 - Head Disease Dataset (IBK, FMD)
 - Body Disease Dataset (LSD, Ringworm)
 - Combined Dataset (for baseline model)
+
+These dataset can also be accessed through Roboflow Universe:
+- https://universe.roboflow.com/fyp-coz6v/bovine-disease-detection-combined
+- https://universe.roboflow.com/fyp-coz6v/bovine-body-part
+- https://universe.roboflow.com/fyp-coz6v/bovine-body-disease-detection
+- https://universe.roboflow.com/fyp-coz6v/bovine-head-disease-detection
 
 Preprocessing and augmentation were applied to improve generalization.
 
